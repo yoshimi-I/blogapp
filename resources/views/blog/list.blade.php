@@ -1,5 +1,6 @@
 @extends('layout')
 @section('content')
+@section('title','ブログ一覧')
 <div class="container">
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
