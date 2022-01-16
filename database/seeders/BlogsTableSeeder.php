@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use \App\Models\Blog;
+use App\Models\Blog;
 
 class BlogsTableSeeder extends Seeder
 {
