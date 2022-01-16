@@ -3,9 +3,11 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\Blog;
 
 class BlogFactory extends Factory
 {
+    protected $model = \App\Models\Blog::class;
     /**
      * Define the model's default state.
      *
@@ -14,8 +16,9 @@ class BlogFactory extends Factory
     public function definition()
     {
         return [
+            //
             'title' => $this->faker->word,
-            'contnt' => $this->faker->realText
+            'content' => $this->faker->realText
         ];
     }
 }
